@@ -1,24 +1,14 @@
 import './App.css';
-import Pessoa from './components/Pessoa';
-import Frase from './components/Frase';
-import List from './components/List';
+import Evento from './components/Evento';
 
 
 
 function App() {
 
-
   return (
     <div className="App">
-      <Pessoa 
-      nome={'Iago'}
-      idade={29}
-      profissao={'Programador'}
-      foto={'https://via.placeholder.com/150'} />
-
-      <Frase nome={'Iago'} />
-
-      <List />
+      <h1>Testando Eventos</h1>
+      <Evento numero='1' />
     </div>
   );
 }

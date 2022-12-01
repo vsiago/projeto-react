@@ -1,0 +1,17 @@
+.btnEvent {
+    background: greenyellow;
+    color: black;
+    padding: .6rem 2rem;
+    transition: .3s;
+    border-radius: 4px;
+    border: none;
+    margin-top: 2rem;
+}
+
+.btnEvent:hover {
+    background: black;
+    color: greenyellow;
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 4px;
+}
