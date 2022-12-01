@@ -1,6 +1,6 @@
-function Frase() {
+function Frase({ nome }) {
   return (
-    <p>Esse é o primeiro componente com frase</p>
+    <p>Meu nome é: {nome}</p>
   )
 }
 
